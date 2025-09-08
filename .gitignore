@@ -1,0 +1,86 @@
+# ============================================
+# Visual Studio / C++
+# ============================================
+
+# Archivos de usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de configuración de Visual Studio
+.vs/
+.vscode/
+
+# Archivos temporales de IntelliSense y Copilot
+*.VC.db
+*.VC.VC.opendb
+*.db
+*.db-shm
+*.db-wal
+*.ipch
+CopilotIndices/
+
+# Directorios de compilación (Debug/Release en cualquier nivel)
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Bb]uild/
+**/[Bb]in/
+**/[Oo]bj/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Archivos intermedios y binarios
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.idb
+*.exp
+*.exe
+*.dll
+*.lib
+*.app
+*.so
+*.dylib
+
+# Archivos de log / seguimiento de build
+*.tlog
+*.log
+*.lastbuildstate
+*.cachefile
+
+# Otros temporales
+*.tmp
+*.bak
+*.swp
+*.sdf
+*.opendb
+*.dbmdl
+*.jfm
+
+# Publicaciones y despliegues
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Archivos de profiling
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Otros generados por Visual Studio
+*.scc
+*.vspscc
+*.vssscc
+*.cache

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1755724660 source:c:\users\marcelo carabajal\desktop\utn\programacion_2\proyectos\funciones\funciones.cpp
+	<iostream>
+	"funciones.h"
+
+1755724959 c:\users\marcelo carabajal\desktop\utn\programacion_2\proyectos\funciones\funciones.h
+	<string>
+
+1755801416 source:c:\users\marcelo carabajal\desktop\utn\programacion_2\proyectos\funciones\main.cpp
+	<iostream>
+	"funciones.h"
+
+1755724660 source:c:\dev\utn\2025\segundo_cuatrimestre\programacion_2\proyectos\funciones\funciones.cpp
+	<iostream>
+	"funciones.h"
+
+1755724959 c:\dev\utn\2025\segundo_cuatrimestre\programacion_2\proyectos\funciones\funciones.h
+	<string>
+
+1755801416 source:c:\dev\utn\2025\segundo_cuatrimestre\programacion_2\proyectos\funciones\main.cpp
+	<iostream>
+	"funciones.h"
+

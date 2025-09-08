@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1756216661 source:c:\users\marcelo carabajal\desktop\utn\programacion_2\proyectos\prueba\prueba\main.cpp
+	<iostream>
+	"rlutil.h"
+
+1571584339 c:\users\marcelo carabajal\desktop\utn\programacion_2\proyectos\prueba\prueba\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1756216661 source:c:\dev\utn\2025\segundo_cuatrimestre\programacion_2\proyectos\prueba\prueba\main.cpp
+	<iostream>
+	"rlutil.h"
+
+1571584339 c:\dev\utn\2025\segundo_cuatrimestre\programacion_2\proyectos\prueba\prueba\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
