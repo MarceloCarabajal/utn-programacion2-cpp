@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1758482130 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\guia_ejercicios_poo\ejercicio_1\ejercicio1\main.cpp
+	<iostream>
+	"Rectangulo.h"
+
+1758481399 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\guia_ejercicios_poo\ejercicio_1\ejercicio1\rectangulo.h
+
+1758482191 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\guia_ejercicios_poo\ejercicio_1\ejercicio1\rectangulo.cpp
+	"Rectangulo.h"
+
