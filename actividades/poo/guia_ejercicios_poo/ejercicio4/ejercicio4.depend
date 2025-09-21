@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1758490197 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia_ejercicios_poo\ejercicio4\triangulo.cpp
+	"Triangulo.h"
+
+1758489953 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia_ejercicios_poo\ejercicio4\triangulo.h
+
+1758490054 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia_ejercicios_poo\ejercicio4\main.cpp
+	<iostream>
+	"Triangulo.h"
+
