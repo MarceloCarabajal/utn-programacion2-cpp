@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1758423199 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\actividad1_encapsulamiento\postulante.cpp
+	"Postulante.h"
+
+1758419132 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\actividad1_encapsulamiento\postulante.h
+	<string>
+
+1758423579 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\actividad1_encapsulamiento\main.cpp
+	<iostream>
+	"Postulante.h"
+	"Evaluador.h"
+
+1758423199 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\actividad1_encapsulamiento\evaluador.cpp
+	"Evaluador.h"
+
+1758423199 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\ejercicios_poo\actividad1_encapsulamiento\evaluador.h
+	"Postulante.h"
+

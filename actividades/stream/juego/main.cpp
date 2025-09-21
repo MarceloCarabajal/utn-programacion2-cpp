@@ -21,6 +21,7 @@ int main()
         }
 
 		player.cmd();
+
         /// update - logica
         player.update();
 
