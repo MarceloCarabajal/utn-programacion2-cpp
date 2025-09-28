@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1759011894 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\main.cpp
+	<iostream>
+	"Martillo.h"
+	"Destornillador.h"
+	"Taladro.h"
+
+1759012123 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\martillo.cpp
+	<iostream>
+	"Martillo.h"
+
+1759009224 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\martillo.h
+	<string>
+	"Herramienta.h"
+
+1759008579 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\herramienta.h
+	<string>
+
+1759008579 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\herramienta.cpp
+	<iostream>
+	"Herramienta.h"
+
+1759011812 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\destornillador.cpp
+	<iostream>
+	"Destornillador.h"
+
+1759012426 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\destornillador.h
+	<string>
+	"Herramienta.h"
+
+1759011478 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\taladro.cpp
+	<iostream>
+	"Taladro.h"
+
+1759011088 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad1\taladro.h
+	"Herramienta.h"
+
+1759023627 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\destornillador.cpp
+	<iostream>
+	"Destornillador.h"
+
+1759023627 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\destornillador.h
+	<string>
+	"Herramienta.h"
+
+1759023627 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\herramienta.h
+	<string>
+
+1759008579 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\herramienta.cpp
+	<iostream>
+	"Herramienta.h"
+
+1759024692 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\main.cpp
+	<iostream>
+	"Martillo.h"
+	"Destornillador.h"
+	"Taladro.h"
+	"TaladroPercutor.h"
+
+1759023627 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\martillo.h
+	<string>
+	"Herramienta.h"
+
+1759023785 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\taladro.h
+	"Herramienta.h"
+
+1759023627 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\martillo.cpp
+	<iostream>
+	"Martillo.h"
+
+1759024515 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\taladro.cpp
+	<iostream>
+	"Taladro.h"
+
+1759024375 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\taladropercutor.cpp
+	<iostream>
+	"TaladroPercutor.h"
+	"Taladro.h"
+
+1759024114 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia2_poo_herencia\actividad2\taladropercutor.h
+	"Taladro.h"
+
