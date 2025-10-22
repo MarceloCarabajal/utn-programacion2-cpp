@@ -46,3 +46,50 @@
 1759980909 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\guia3_poo_clase_fecha\todolist\app.h
 	"TareaMenu.h"
 
+1759981343 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\app.cpp
+	<iostream>
+	"App.h"
+
+1759980909 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\app.h
+	"TareaMenu.h"
+
+1759975545 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareamenu.h
+	"TareaManager.h"
+
+1761093930 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareamanager.h
+	"TareaArchivo.h"
+
+1761092223 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareaarchivo.h
+	<string>
+	"Tarea.h"
+
+1761091707 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tarea.h
+	"Fecha.h"
+
+1759538253 c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\fecha.h
+	<string>
+
+1759539006 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\fecha.cpp
+	"Fecha.h"
+
+1759980854 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\main.cpp
+	<iostream>
+	"App.h"
+
+1761092223 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tarea.cpp
+	"Tarea.h"
+	<cstring>
+
+1761089273 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareamenu.cpp
+	<iostream>
+	"TareaMenu.h"
+
+1761091707 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareaarchivo.cpp
+	"TareaArchivo.h"
+
+1761093930 source:c:\disco_a\dev\education\utn\tup\primer_año\segundo_cuatrimestre\programacion_2\mi_repo\actividades\poo\todolist\tareamanager.cpp
+	<iostream>
+	<string>
+	"Tarea.h"
+	"TareaManager.h"
+

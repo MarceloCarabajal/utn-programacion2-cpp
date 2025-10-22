@@ -9,6 +9,7 @@ class TareaManager
         void listarTarea();
         void marcarTarea();
         void eliminarTarea();
+        void mostrarTareaOrdenada();
 
     protected:
         void mostrarTarea(Tarea tarea);

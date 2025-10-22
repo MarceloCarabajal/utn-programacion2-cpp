@@ -54,6 +54,8 @@ void TareaManager::mostrarTarea(Tarea tarea){
     cout << "Descripcion: " << tarea.getDescripcion() << endl;
     cout << "Fecha: " << tarea.getFecha().toString() << endl;
     cout << "Finalizada: " << (tarea.getCompletado() ? "Si" : "No") << endl;
+    cout << "Eliminado: " << (tarea.getEliminado() ? "Si" : "No") << endl;
+    
 }
 
 void TareaManager::marcarTarea(){
@@ -99,7 +101,7 @@ void TareaManager::eliminarTarea(){
     Tarea tarea;
     char eliminado;
 
-    cout << "--- Marcar tarea ---" << endl;
+    cout << "--- ELIMINAR TAREA ---" << endl;
     cout << "Ingrese id de la tarea: " << endl;
     cin >> id;
 
@@ -121,10 +123,42 @@ void TareaManager::eliminarTarea(){
 
     if(eliminado == 's' or eliminado == 'S'){
         if(_repo.eliminar(pos)){
-            cout << "La tarea fue eliminada correctamente"
+            cout << "La tarea fue eliminada correctamente";
         }
     } else {
         cout << "Ocurrio un error en la eliminacion de la tarea" << endl;
     }
 }
 
+
+void TareaManager::mostrarTareaOrdenada(){
+    int cantidad = _repo.getCantidadRegistros();
+    Tarea *tareas;
+    
+    tareas = new Tarea[cantidad];
+    
+    _repo.leerTodos(tareas, cantidad);
+
+    for(int i=0; i<cantidad-1; i++){
+        bool intercambio = false;
+        for(int j=0; j<cantidad- 1-i; j++){
+            if(tareas[j].getDescripcion() > tareas[j+1].getDescripcion()) {
+                Tarea aux = tareas[j];
+                tareas[j] = tareas[j+1];
+                tareas[j+1] = aux;
+                intercambio = true;
+            }
+        }
+    
+        if(!intercambio){
+            break;
+        }
+    }
+    
+    for (int i=0; i < cantidad; i++){
+        mostrarTarea(tareas[i]);
+        cout << " ------------------------ " << endl;
+    }
+    
+    delete tareas[];
+}

@@ -3,7 +3,7 @@
 using namespace std;
 
 TareaMenu::TareaMenu(){
-    _cantidadOpciones = 4;
+    _cantidadOpciones = 5;
 }
 void TareaMenu::mostrar(){
     int opcion;
@@ -23,6 +23,7 @@ void TareaMenu::mostrarOpciones(){
     cout << "2- Mostrar tareas" << endl;
     cout << "3- Marcar tarea" << endl;
     cout << "4- Eliminar tarea" << endl;
+    cout << "5- Mostrar ordenado alfabeticamente" << endl;
     cout << "0- Salir" << endl;
 }
 int TareaMenu::seleccionOpcion(){
@@ -51,7 +52,11 @@ void TareaMenu::ejecutarOpcion(int opcion){
         _tareaManager.marcarTarea();
         break;
     case 4:
+        _tareaManager.eliminarTarea();
         break;
+    case 5:
+        _tareaManager.mostrarTareaOrdenada();
+        break;    
     case 0:
         break;
     default:

@@ -14,10 +14,9 @@ class TareaArchivo
         //bool modificar(Tarea tarea, int pos)
 
         Tarea leer(int pos);
+        int leerTodos(Tarea tareas[], int cantidad);
         int getCantidadRegistros();
         int getNuevoId();
-
-
 
     private:
         std::string _nombreArchivo;
