@@ -57,5 +57,13 @@ int main()
 
     Fecha f2(31, 2, 2023);
     cout << "Fecha invalida -> por defecto: " << f2.toString() << endl;
+    
+    Fecha aux(7,4,5), otra(2,6,5);
+    cout << endl;
+    if(aux == otra){
+        cout << "Son iguales" << endl;
+    } else {
+        cout << "Son distintas" << endl;
+    }
     return 0;
 }

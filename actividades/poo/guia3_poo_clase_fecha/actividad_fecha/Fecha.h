@@ -28,4 +28,8 @@ public:
     //Metodos publicos
     void agregarDias(int cantidad);
     string toString() const;
+    
+    /// Sobrecargas de operadores: Es un mecanismo que nos permite agregarle funcionalidades a los operadores del lenguaje.
+    /// Esto se consigue escribiendo el codigo corresponidiente dentro de la clase
+    bool operator ==(const Fecha &obj) const;
 };

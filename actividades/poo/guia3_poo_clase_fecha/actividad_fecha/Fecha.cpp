@@ -24,6 +24,7 @@ int Fecha::diasEnMes(int mes, int anio) const{
 bool Fecha::fechaValida(int d, int m, int a) const{
     if(a<1 || m <1 || m>12) return false;
     if(d<1 || d > diasEnMes(m, a)) return false;
+    return true;
 }
 //Constructores
 Fecha::Fecha(){
@@ -95,6 +96,14 @@ void Fecha::agregarDias(int cantidad){
             restarDia();
         }
     }
+}
+
+//Sobrecargas de operadores
+bool Fecha::operator==(const Fecha &obj) const{
+    if(_dia!=obj._dia) return false;
+    if(_mes!=obj._mes) return false;
+    if(_anio!=obj._anio) return false;
+    return true;
 }
 
 string Fecha::toString() const{
